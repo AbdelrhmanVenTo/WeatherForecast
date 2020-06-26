@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:elevation="15dp"
+    android:background="@color/ClearskCardBackground"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:background="@color/ClearskCardBackground">
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_wind"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/day" />
+
+        <TextView
+            android:id="@+id/tempDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30°C"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/icon" />
+
+        <TextView
+            android:id="@+id/seeMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="See More"
+            android:textColor="@color/colorBlack"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tempDay" />
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

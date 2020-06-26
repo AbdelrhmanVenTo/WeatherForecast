@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4DB7CE</color>
+    <color name="colorPrimaryDark">#298CA3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000</color>
+    <color name="ClearskyBorderBackground">#40000000</color>
+    <color name="CloudyskCardBackground">#18000000</color>
+    <color name="ClearskCardBackground">#18000000</color>
+
+
+</resources>

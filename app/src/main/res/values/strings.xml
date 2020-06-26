@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Get Weather</string>
+    <string name="get_weather">get Weather</string>
+    <string name="click_to_choose_city">Write City</string>
+    <string name="pressure">pressure</string>
+    <string name="details">Details</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="description">description</string>
+
+</resources>
